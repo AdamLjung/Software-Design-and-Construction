@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv='Content-Type' content='text/html; charset=utf-8'></meta>
+    <link rel='stylesheet' type='text/css' href='statprofiler.css'></link>
+    <title>StatProfilerHTML - main report</title>
+  </head>
+  <body>
+    <div class='report-header'>
+      <div class='backlink'>
+        <a href='index.html'>Report index</a>
+      </div>
+      <div class='report-title'>
+        StatProfilerHTML.jl report
+      </div>
+      <div class='generated-on'>
+        Generated on Mon, 07 Oct 2024 16:13:03
+      </div>
+    </div>
+    <object data='flamegraph.svg' type='image/svg&#43;xml' style='display: block' id='flamegraph' width='90&#37;'></object>
+    <table>
+      <caption>Methods sorted by exclusive sample count</caption>
+      <thead>
+        <tr>
+          <th>Exclusive</th>
+          <th>Inclusive</th>
+          <th>Method</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>7 &#40;25 &#37;&#41;</td>
+          <td>7 &#40;25 &#37;&#41;</td>
+          <td>
+            <a href='string.jl-b147153d69f0ae1e5ae603770aa9e6d40e4b4b07.html#L71'>unsafe_wrap</a>
+          </td>
+        </tr>
+        <tr>
+          <td>4 &#40;14 &#37;&#41;</td>
+          <td>23 &#40;82 &#37;&#41;</td>
+          <td>
+            <a href='io.jl-837a862faeba1184f10ed185c87e47c401eebe37.html#L123'>print_to_string</a>
+          </td>
+        </tr>
+        <tr>
+          <td>4 &#40;14 &#37;&#41;</td>
+          <td>4 &#40;14 &#37;&#41;</td>
+          <td>
+            <a href='stream.jl-a0dd648175208d5f473f29d68da9680c2c4990f0.html#L957'>uv_write_async</a>
+          </td>
+        </tr>
+        <tr>
+          <td>4 &#40;14 &#37;&#41;</td>
+          <td>4 &#40;14 &#37;&#41;</td>
+          <td>
+            <a href='string.jl-b147153d69f0ae1e5ae603770aa9e6d40e4b4b07.html#L60'>_string_n</a>
+          </td>
+        </tr>
+        <tr>
+          <td>3 &#40;11 &#37;&#41;</td>
+          <td>3 &#40;11 &#37;&#41;</td>
+          <td>
+            <a href='int.jl-3d27f1fd3679325e16eba5c091a3584163e71b52.html#L262'>div</a>
+          </td>
+        </tr>
+        <tr>
+          <td>2 &#40;7 &#37;&#41;</td>
+          <td>2 &#40;7 &#37;&#41;</td>
+          <td>
+            <a href='int.jl-3d27f1fd3679325e16eba5c091a3584163e71b52.html#L86'>&#43;</a>
+          </td>
+        </tr>
+        <tr>
+          <td>1 &#40;4 &#37;&#41;</td>
+          <td>1 &#40;4 &#37;&#41;</td>
+          <td>
+            <a href='array.jl-3abaa34bd2c8da25d77e167a2dd868d792c51200.html#L901'>_deleteend&#33;</a>
+          </td>
+        </tr>
+        <tr>
+          <td>1 &#40;4 &#37;&#41;</td>
+          <td>23 &#40;82 &#37;&#41;</td>
+          <td>
+            <a href='io.jl-837a862faeba1184f10ed185c87e47c401eebe37.html#L174'>string</a>
+          </td>
+        </tr>
+        <tr>
+          <td>1 &#40;4 &#37;&#41;</td>
+          <td>1 &#40;4 &#37;&#41;</td>
+          <td>
+            <a href='int.jl-3d27f1fd3679325e16eba5c091a3584163e71b52.html#L441'>&lt;&#61;</a>
+          </td>
+        </tr>
+        <tr>
+          <td>1 &#40;4 &#37;&#41;</td>
+          <td>1 &#40;4 &#37;&#41;</td>
+          <td>
+            <a href='shortest.jl-e14a2f4eeeafd289641b3c83e46f9e6d132c7fa7.html#L152'>reduce_shortest</a>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>28 &#40;100 &#37;&#41;</td>
+          <td>
+            <a href='REPL.jl-0ad775918961b78ff7ff7c98600f92d25c06cae0.html#L120'>eval_user_input</a>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>28 &#40;100 &#37;&#41;</td>
+          <td>
+            <a href='REPL.jl-0ad775918961b78ff7ff7c98600f92d25c06cae0.html#L286'>#run_repl#37</a>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>2 &#40;7 &#37;&#41;</td>
+          <td>
+            <a href='int.jl-3d27f1fd3679325e16eba5c091a3584163e71b52.html#L201'>div</a>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>28 &#40;100 &#37;&#41;</td>
+          <td>
+            <a href='client.jl-3e5b7fe400f79c84b07f4df28ff67985c17e9418.html#L214'>exec_options</a>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>28 &#40;100 &#37;&#41;</td>
+          <td>
+            <a href='REPL.jl-0ad775918961b78ff7ff7c98600f92d25c06cae0.html#L286'>run_repl</a>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>28 &#40;100 &#37;&#41;</td>
+          <td>
+            <a href='REPL.jl-0ad775918961b78ff7ff7c98600f92d25c06cae0.html#L176'>start_repl_backend</a>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>4 &#40;14 &#37;&#41;</td>
+          <td>
+            <a href='iobuffer.jl-110c884701acdcf3762bbbf7efe683575d52b121.html#L112'>Type##kw</a>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>28 &#40;100 &#37;&#41;</td>
+          <td>
+            <a href='essentials.jl-6c091240b20ab0be66b63ad2df0411962de6aec6.html#L710'>#invokelatest#1</a>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>2 &#40;7 &#37;&#41;</td>
+          <td>
+            <a href='div.jl-33100846f7adfb1b2a4d03cf419ad8391d543a19.html#L37'>div</a>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>28 &#40;100 &#37;&#41;</td>
+          <td>
+            <a href='REPL.jl-0ad775918961b78ff7ff7c98600f92d25c06cae0.html#L183'>repl_backend_loop</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      <a href='methods.html'>All methods</a>
+    </p>
+
+    <table>
+      <caption>Files sorted by exclusive sample count</caption>
+      <thead>
+        <tr>
+          <th>Exclusive</th>
+          <th>Report</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>11 &#40;39 &#37;&#41;</td>
+          <td>
+            <a href='string.jl-b147153d69f0ae1e5ae603770aa9e6d40e4b4b07.html'>/home/adalj586/Datateknik/TDDE45/tdde45-lab5-metaprogramming-and-debugging/julia/julia-1.5.0/bin/../share/julia/base/./strings/string.jl</a>
+          </td>
+        </tr>
+        <tr>
+          <td>6 &#40;21 &#37;&#41;</td>
+          <td>
+            <a href='int.jl-3d27f1fd3679325e16eba5c091a3584163e71b52.html'>/home/adalj586/Datateknik/TDDE45/tdde45-lab5-metaprogramming-and-debugging/julia/julia-1.5.0/bin/../share/julia/base/./int.jl</a>
+          </td>
+        </tr>
+        <tr>
+          <td>5 &#40;18 &#37;&#41;</td>
+          <td>
+            <a href='io.jl-837a862faeba1184f10ed185c87e47c401eebe37.html'>/home/adalj586/Datateknik/TDDE45/tdde45-lab5-metaprogramming-and-debugging/julia/julia-1.5.0/bin/../share/julia/base/./strings/io.jl</a>
+          </td>
+        </tr>
+        <tr>
+          <td>4 &#40;14 &#37;&#41;</td>
+          <td>
+            <a href='stream.jl-a0dd648175208d5f473f29d68da9680c2c4990f0.html'>/home/adalj586/Datateknik/TDDE45/tdde45-lab5-metaprogramming-and-debugging/julia/julia-1.5.0/bin/../share/julia/base/./stream.jl</a>
+          </td>
+        </tr>
+        <tr>
+          <td>1 &#40;4 &#37;&#41;</td>
+          <td>
+            <a href='shortest.jl-e14a2f4eeeafd289641b3c83e46f9e6d132c7fa7.html'>/home/adalj586/Datateknik/TDDE45/tdde45-lab5-metaprogramming-and-debugging/julia/julia-1.5.0/bin/../share/julia/base/./ryu/shortest.jl</a>
+          </td>
+        </tr>
+        <tr>
+          <td>1 &#40;4 &#37;&#41;</td>
+          <td>
+            <a href='array.jl-3abaa34bd2c8da25d77e167a2dd868d792c51200.html'>/home/adalj586/Datateknik/TDDE45/tdde45-lab5-metaprogramming-and-debugging/julia/julia-1.5.0/bin/../share/julia/base/./array.jl</a>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <a href='boot.jl-16f18f1ed72e75c6cc7729c01e25e539cea86825.html'>/home/adalj586/Datateknik/TDDE45/tdde45-lab5-metaprogramming-and-debugging/julia/julia-1.5.0/bin/../share/julia/base/./boot.jl</a>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <a href='client.jl-3e5b7fe400f79c84b07f4df28ff67985c17e9418.html'>/home/adalj586/Datateknik/TDDE45/tdde45-lab5-metaprogramming-and-debugging/julia/julia-1.5.0/bin/../share/julia/base/./client.jl</a>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <a href='Ryu.jl-83d3ff66fb2f07300510839fa47de2950efdcfbf.html'>/home/adalj586/Datateknik/TDDE45/tdde45-lab5-metaprogramming-and-debugging/julia/julia-1.5.0/bin/../share/julia/base/./ryu/Ryu.jl</a>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <a href='div.jl-33100846f7adfb1b2a4d03cf419ad8391d543a19.html'>/home/adalj586/Datateknik/TDDE45/tdde45-lab5-metaprogramming-and-debugging/julia/julia-1.5.0/bin/../share/julia/base/./div.jl</a>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <a href='iobuffer.jl-110c884701acdcf3762bbbf7efe683575d52b121.html'>/home/adalj586/Datateknik/TDDE45/tdde45-lab5-metaprogramming-and-debugging/julia/julia-1.5.0/bin/../share/julia/base/./iobuffer.jl</a>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <a href='REPL.jl-0ad775918961b78ff7ff7c98600f92d25c06cae0.html'>/buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.5/REPL/src/REPL.jl</a>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <a href='coreio.jl-3c242874fceb20ec0116959c5329a8e42a62ff98.html'>/home/adalj586/Datateknik/TDDE45/tdde45-lab5-metaprogramming-and-debugging/julia/julia-1.5.0/bin/../share/julia/base/./coreio.jl</a>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <a href='test.jl-d5827a5ac7711486111378e8ec76ff4ad505ce06.html'>/home/adalj586/Datateknik/TDDE45/tdde45-lab5-metaprogramming-and-debugging/profiling/test.jl</a>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <a href='essentials.jl-6c091240b20ab0be66b63ad2df0411962de6aec6.html'>/home/adalj586/Datateknik/TDDE45/tdde45-lab5-metaprogramming-and-debugging/julia/julia-1.5.0/bin/../share/julia/base/./essentials.jl</a>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <a href='tuple.jl-65b6dd623e4129777c224ee5c102c692d729ab63.html'>/home/adalj586/Datateknik/TDDE45/tdde45-lab5-metaprogramming-and-debugging/julia/julia-1.5.0/bin/../share/julia/base/./tuple.jl</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      <a href='files.html'>All files</a>
+    </p>
+  </body>
+</html>
+
